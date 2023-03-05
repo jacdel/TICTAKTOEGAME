@@ -1,0 +1,91 @@
+
+
+/*using height as 100Vh to cover the whole page.
+and padding top at 1 px to avoid margin collapsing */
+    body {
+    background-color: pink;
+    height: 100vh; 
+    padding-top: 1px;
+    cursor: url(cursor/iconmonstr-favorite-4-32.png), auto;
+    background-image: url("BG.png");
+
+}
+
+.title {
+    color:blueviolet;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10%; 
+    
+}
+ /*using em to make the font-size of the element in the margin*/
+.display {
+    color: rgb(190, 0, 177);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+ 
+ 
+}
+
+/* hides any ui elements by applying this class to the given element */
+.hide {
+    display: none;
+}
+ /* setting the grid columns & rows to 33% so they call all be equal sized */
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.cell {
+    border: 5px solid rgb(205, 160, 204);
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: crosshair;
+    background-color: #f1b0f3;
+    background-image: url("FLASHING.gif");
+}
+
+.playerX {
+    color: #ff00e1;
+}
+
+.playerO {
+    color: #ba49fb;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 10pxS;
+    cursor: help;
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #ff21e5;
+} 

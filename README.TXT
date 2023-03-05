@@ -1,4 +1,4 @@
-URL to GitHub Repository:
+URL to GitHub Repository: https://github.com/jacdel/TICTAKTOEGAME.git (Master Branch)
 
 URL to Your Coding Assignment Video: https://youtu.be/4axnPzArXMs
 

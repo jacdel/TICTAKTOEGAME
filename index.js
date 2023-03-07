@@ -28,6 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
             const b = board[aWin[1]];
             const c = board[aWin[2]];
             if (a === '' || b === '' || c === '') { // if the theres empty boxes skip the iteration w continue keyord
+            continue;
             }
             if (a === b && b === c) { // if there is a winner set the gameStatus to true boolean
                 winningTurn = true;
